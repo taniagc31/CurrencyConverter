@@ -14,6 +14,9 @@ body{
     background-color: rgb(41, 38, 38, 0.15);
     margin-top: 20px;
     margin-bottom: 20px;
+    background-image: url(../CurrencyConverter/recursos/output-onlinepngtools.png);
+    background-repeat:repeat;
+    background-size: 1000px 1000px;
 }
 
 
@@ -22,6 +25,7 @@ width: 450px;
 padding: 50px;
 border-radius: 7px;
 background-color: black;
+opacity: 0.9;
 margin-top: 10px;
 margin-bottom: 10px;
 display:block;
@@ -125,7 +129,7 @@ form.currency{
     height: 50px;
     color: aliceblue;
     cursor: pointer;
-    background: rgb(164, 110, 215);
+    background:rgb(164, 110, 215);
     display:inline;
     justify-content: center;
     vertical-align: top;
