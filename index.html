@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Helvetica">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    .exchange{
+        background-color: rgb(192, 192, 196,.3);
+    }
+</style>
+
+<body>
+    
+<div class="container">
+    <h1>Currency & Crypto &NewLine; Converter App</h1>
+    <form action="#">
+       
+        <div class="currency">
+            <div class="wrapper">
+                <p>From</p>
+                <div class="icon"><span class="fi fi-us"></span></div>
+                <input type="text" value="0.00">
+            </div>
+                      
+            <div class="wrapper">
+                <p>To Bitcoin</p>
+                <div class="icon1"><i class="fa fa-bitcoin"></i></div>
+                <input type="text" value="0.00">
+            </div>      
+            
+            <div class="wrapper1">
+                <p>To SVC</p>
+                <div class="icon"><span class="fi fi-sv"></span></div>
+                <input type="text" value="0.00">
+            </div>
+                    
+        </div>
+
+    <div class="buttons">
+        <div class="convert">
+        <button class="btn btn-primary" type="submit">Convert</button>  
+        </div>
+
+        <div class="reset">
+         <button class="btn btn-primary" onclick="clearVal()">Reset</button>  
+        </div>
+    </div>
+
+    <div class="exchange">
+
+        <div class="typeexchange">
+        <h2>Tipo de cambio USD/BTC</h2>
+        <h2 id="stock-price">---</h2>
+        </div>
+
+    </div>
+          
+    </div>
+    </form>
+    <script src="app.js"></script>
+</div>
+</body>
+</html>
