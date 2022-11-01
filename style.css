@@ -151,9 +151,10 @@ form.currency{
     }
   }
 
-   .exchange{
+    .exchange{
     background-color: rgb(192, 192, 196,.3);
     border: 2px solid lavender;
     border-radius: 6px;
+    margin-top: 15px;
 }
   
